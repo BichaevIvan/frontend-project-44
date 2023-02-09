@@ -1,7 +1,7 @@
 export const magicNumbers = (min = 1, max = 100) => {
-    const mininal = Math.ceil(min);
+    const minimal = Math.ceil(min);
     const maximal = Math.floor(max);
-    const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    const randomNumber = Math.floor(Math.random() * (maximal - minimal + 1)) + minimal;
 return randomNumber;
 };
 
