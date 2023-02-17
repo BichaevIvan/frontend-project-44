@@ -1,4 +1,4 @@
-#!/usr/bin/env code 
+#!/usr/bin/env node 
 import tekst from "../cli.js";
 import { answerForm, checkAnswer } from "../index.js";
 import { magicNumbers } from "../math.js";
