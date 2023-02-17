@@ -45,7 +45,7 @@ const diserd = magicNumbers(1, length-2);
 
 export const progression = (a, b) => {
     let result = " ";
-    const length = magicNumbers(5, 10);
+    const length = magicNumbers(6, 10);
     const elected = magicNumbers(1, length - 2);
     for (let i = 0; i < length; i += 1) {
         const form = (a +(b * i));
