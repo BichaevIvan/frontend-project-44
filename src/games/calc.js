@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import basisOfGames from '../index.js';
+import basisGames from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
 const calc = () => {
@@ -35,7 +35,7 @@ const calc = () => {
     return [question, result];
   };
 
-  basisOfGames(noteToCalc, taskCalc);
+  basisGames(noteToCalc, taskCalc);
 };
 
 export default calc;

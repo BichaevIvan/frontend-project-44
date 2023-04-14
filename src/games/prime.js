@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import basisOfGames from '../index.js';
+import basisGames from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
 const prime = () => {
@@ -27,7 +27,7 @@ const prime = () => {
     return [question, result];
   };
 
-  basisOfGames(noteToPrime, taskPrime);
+  basisGames(noteToPrime, taskPrime);
 };
 
 export default prime;

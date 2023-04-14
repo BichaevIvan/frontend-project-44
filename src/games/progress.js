@@ -1,5 +1,6 @@
 #!/usr//bin/env node
-import basisOfGames from '../index.js';
+
+import basisGames from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
 const progression = () => {
@@ -43,7 +44,7 @@ const progression = () => {
     return [question, result];
   };
 
-  basisOfGames(noteToProgr, taskProgr);
+  basisGames(noteToProgr, taskProgr);
 };
 
 export default progression;
