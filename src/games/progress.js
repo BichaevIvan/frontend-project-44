@@ -28,7 +28,6 @@ const progression = () => {
 
     const startNum = getStartNum();
 
-  
     for (let i = 0, nextNum = startNum; i < 10; i += 1, nextNum += step) {
       sequence.push(nextNum);
     }
