@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import tekst from '../src/cli.js';
+import greeting from '../src/cli.js';
 
-tekst();
+greeting();
